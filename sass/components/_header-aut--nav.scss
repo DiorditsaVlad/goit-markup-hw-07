@@ -2,13 +2,12 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
-    &__icon{
-        margin-right: 10px;
-    }
-    &__item:not(:last-child) {
-        margin-right: 50px;
-    }
+}
+.aut-nav__item:not(:last-child) {
+    margin-right: 50px;
+}
+.aut-nav__icon {
+    margin-right: 10px;
 }
 .aut-nav__link {
     display: flex;

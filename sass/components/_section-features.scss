@@ -10,12 +10,11 @@
   display: flex;
   flex-wrap: wrap;
   flex-basis: calc((100% - 30px * 3) / 3);
-
-  &__item {
-      position: relative;
-  }
-  &__item:not(:last-child) {
-      margin-right: 30px;
+}
+.features-list__item {
+  position: relative;
+  &:not(:last-child) {
+    margin-right: 30px;
   }
 }
 .features-list__text {

@@ -12,10 +12,9 @@
     flex-wrap: wrap;
     flex-basis: calc((100% - 30px * 6) / 6);
     align-items: center;
-
-    &__item:not(:last-child) {
-        margin-right: 30px;
-    }
+}
+.constant-clients__item:not(:last-child) {
+    margin-right: 30px;
 }
 .constant-clients__link {
     display: block;
@@ -26,11 +25,11 @@
     fill: var(--icon-cl-pr);
     transition: fill 250ms var(--cubik), border 250ms var(--cubik);
 
-    &--padding {
-        padding: 20px 45px;
-    }
     &:hover, &:focus{
         fill: var(--accent-color);
         border: 1px solid var(--accent-color);
     }
+}
+.constant-clients__link--padding {
+    padding: 20px 45px;
 }

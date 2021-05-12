@@ -4,10 +4,9 @@
     align-items: center;
     margin-left: 32px;
     margin-bottom: 30px;
-
-    &__item:not(:last-child) {
-        margin-right: 10px;
-    }
+}
+.team-icon__item:not(:last-child) {
+    margin-right: 10px;
 }
 .team-icon__link {
     display: flex;

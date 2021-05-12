@@ -1,15 +1,13 @@
 .header {
   border-bottom: 1px solid #ececec;
-
-  &-nav{
-     display: flex;
-     align-items: center;
-  }
+}
+.header-nav {
+  display: flex;
+  align-items: center;
 }
 .header-container {
   display: flex;
-
-  &--left{
-    margin-left: auto;
-  }
+}
+.header-container--left {
+  margin-left: auto;
 }

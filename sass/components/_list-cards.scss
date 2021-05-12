@@ -1,21 +1,17 @@
 .list-cards {
     display: flex;
     flex-wrap: wrap;
-
-    &__title {
-        font-weight: 700;
-        font-size: 18px;
-        line-height: 2;
-        letter-spacing: 0.06em;
-        margin: 0;
-        padding-top: 20px;
-        padding-left: 24px;
-        padding-right: 24px;
-        padding-bottom: 4px;
-    }
-    &__item:nth-child(3n) {
-        margin: 0;
-    }
+}
+.list-cards__title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    margin: 0;
+    padding-top: 20px;
+    padding-left: 24px;
+    padding-right: 24px;
+    padding-bottom: 4px;
 }
 .list-cards__item {
     flex-basis: calc((100% - 30px * 9) / 9);
@@ -27,6 +23,9 @@
     &:nth-last-child(-n + 3) {
         margin-bottom: 0;
     }
+     &:nth-child(3n) {
+         margin: 0;
+     }
     &:hover, &:focus{
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
         0px 4px 4px rgba(0, 0, 0, 0.06),
@@ -73,9 +72,8 @@
     border-bottom: 1px solid #eeeeee;
     border-left: 1px solid #eeeeee;
     border-right: 1px solid #eeeeee;
-
-    &--position {
-        position: relative;
-        overflow: hidden;
-    }
+}
+.list-cards__image--position {
+    position: relative;
+    overflow: hidden;
 }

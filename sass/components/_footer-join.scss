@@ -1,25 +1,23 @@
 .footer-join {
     margin-left: 60px;
-
-    &__title {
-        font-weight: 700px;
-        font-size: 14px;
-        line-height: 16px;
-        text-transform: uppercase;
-        color: var(--pr-wht-color);
-        margin-top: 0;
-        margin-bottom: 20px;
-        padding-top: 12px;
-    }
+}
+.footer-join__title {
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+    text-transform: uppercase;
+    color: var(--pr-wht-color);
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-top: 12px;
 }
 .footer-icon {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-
-    &__item:not(:last-child) {
-        margin-right: 10px;
-    }
+}
+.footer-icon__item:not(:last-child) {
+    margin-right: 10px;
 }
 .footer-icon__link {
     display: flex;

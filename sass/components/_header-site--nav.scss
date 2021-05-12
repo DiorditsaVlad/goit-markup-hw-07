@@ -1,9 +1,8 @@
 .site-nav {
     display: flex;
-
-    &__item{
-        margin-right: 50px;
-    }
+}
+.site-nav__item {
+    margin-right: 50px;
 }
 .site-nav__link {
     position: relative;
