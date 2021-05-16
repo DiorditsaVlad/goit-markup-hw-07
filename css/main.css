@@ -915,8 +915,8 @@ body {
 }
 
 .list-cards__item {
-  -ms-flex-preferred-size: calc((100% - 30px * 9) / 9);
-      flex-basis: calc((100% - 30px * 9) / 9);
+  -ms-flex-preferred-size: calc((100% - 30px * 3) / 3);
+      flex-basis: calc((100% - 30px * 3) / 3);
   margin-right: 30px;
   margin-bottom: 30px;
   max-height: 404px;
@@ -931,7 +931,7 @@ body {
 }
 
 .list-cards__item:nth-child(3n) {
-  margin: 0;
+  margin-right: 0;
 }
 
 .list-cards__item:hover, .list-cards__item:focus {

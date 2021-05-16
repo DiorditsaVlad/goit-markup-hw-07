@@ -1,6 +1,7 @@
 .list-cards {
     display: flex;
     flex-wrap: wrap;
+   
 }
 .list-cards__title {
     font-weight: 700;
@@ -14,7 +15,7 @@
     padding-bottom: 4px;
 }
 .list-cards__item {
-    flex-basis: calc((100% - 30px * 9) / 9);
+    flex-basis: calc((100% - 30px * 3) / 3);
     margin-right: 30px;
     margin-bottom: 30px;
     max-height: 404px;
@@ -24,7 +25,7 @@
         margin-bottom: 0;
     }
      &:nth-child(3n) {
-         margin: 0;
+         margin-right: 0;
      }
     &:hover, &:focus{
         box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12),
